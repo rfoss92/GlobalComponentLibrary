@@ -2,8 +2,8 @@
   "name": "sharedcomponentlibrary",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index",
-  "typings": "build/index",
+  "main": "src/index",
+  "typings": "src/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d build",
