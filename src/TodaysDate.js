@@ -1,5 +1,11 @@
-import React from "react";
+var React = require('react');
 
-const TodaysDate = () => <div>{`Today's date is ${Date()}`}</div>;
-
-export default TodaysDate;
+var TodaysDate = function TodaysDate() {
+    return React.createElement(
+      "div",
+      null,
+      "Today's date is " + Date()
+    );
+  };
+  
+module.exports = TodaysDate;

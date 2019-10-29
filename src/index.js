@@ -1,1 +1,3 @@
-export { default as TodaysDate } from "./TodaysDate";
+var TodaysDate = require('./TodaysDate');
+
+module.exports = TodaysDate;
