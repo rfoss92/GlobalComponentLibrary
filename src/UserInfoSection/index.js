@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import idx from 'idx';
-import LocalStorageUtils from "../../lib/LocalStorageUtils";
+import LocalStorageUtils from "../lib/LocalStorageUtils";
 import Column from '../Column';
 import Row from '../Row';
 import Icon from '../Icon';
