@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Icon from '../componentLibrary/Icon';
+import Icon from '../Icon';
 import {
     StyledNumberedItem, 
     StyledNumber, 

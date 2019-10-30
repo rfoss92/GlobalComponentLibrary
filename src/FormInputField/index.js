@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import idx from 'idx';
-import Icon from "../componentLibrary/Icon";
+import Icon from "../Icon";
 import { FormInputFieldConstants } from '../constants/componentLibrary';
 import Dropdown from '../Dropdown'
 import TooltipContainer from './TooltipContainer';

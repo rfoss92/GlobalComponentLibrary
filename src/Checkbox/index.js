@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import idx from 'idx';
-import Icon from '../componentLibrary/Icon';
+import Icon from '../Icon';
 import { StyledCheckbox, CheckboxContainer} from "./styles";
 import PropTypes from 'prop-types';
 

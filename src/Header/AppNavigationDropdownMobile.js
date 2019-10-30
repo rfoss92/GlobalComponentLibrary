@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import onClickOutside from "react-onclickoutside";
-import Icon from '../componentLibrary/Icon';
+import Icon from '../Icon';
 import {
     LeftNavigationContainer,
     SideNavHeader,
