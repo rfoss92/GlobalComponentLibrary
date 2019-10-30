@@ -79,15 +79,15 @@ class HorizontalFlowChart extends Component {
         let flowItemsSize = flowItems.length;
         let items = flowItems.map((flowItem, i) => {
             if (i === flowItemsSize - 1) {
-                return <>{this.getNumberedItem(flowItem)}</>;
+                return <React.Fragment>{this.getNumberedItem(flowItem)}</React.Fragment>;
             }
             return (
-                <>
+                <React.Fragment>
                     {this.getNumberedItem(flowItem)}
                     <LineConnector key={`line-${flowItem.number}`} color={(flowItem.number <= currentStep) ? selectedTextColor : textColor}>
                         <hr/>
                     </LineConnector>
-                </>
+                </React.Fragment>
             );
         });
         

@@ -15,7 +15,6 @@ import SectionFooter from './SectionFooter';
 import UserInfoSection from './UserInfoSection';
 import TabbedCard from './TabbedCard';
 import TodaysDate from "./TodaysDate"
-import Dropdown from "./Dropdown/index"
 
 export {
     Accordion,
@@ -35,5 +34,4 @@ export {
     UserInfoSection,
     TabbedCard,
     TodaysDate, 
-    Dropdown
 }
