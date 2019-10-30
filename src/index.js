@@ -1,3 +1,4 @@
 var TodaysDate = require('./TodaysDate');
+var Dropdown = require('./Dropdown');
 
-module.exports = TodaysDate;
+module.exports = { TodaysDate, Dropdown };
