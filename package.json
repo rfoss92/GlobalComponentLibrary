@@ -26,6 +26,7 @@
     "babelify": "^10.0.0",
     "gulp-babel": "^8.0.0",
     "idx": "^2.5.6",
+    "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-datepicker": "^2.9.6",
