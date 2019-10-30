@@ -16,7 +16,8 @@
   "author": "Ryan",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.11.0"
+    "react": "^16.11.0",
+    "react-onclickoutside": "^6.9.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
