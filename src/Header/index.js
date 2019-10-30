@@ -5,7 +5,7 @@ import Icon from '../Icon';
 import AppNavigationDropdownMobile from './AppNavigationDropdownMobile';
 import AppNavigationDropdownRight from './AppNavigationDropdownRight';
 import idx from "idx";
-import AuthToken from "../../lib/AuthToken";
+import AuthToken from "../lib/AuthToken";
 
 import {
     AppHeader,
