@@ -16,8 +16,6 @@
   "author": "Ryan",
   "license": "ISC",
   "devDependencies": {
-    "react": "^16.11.0",
-    "react-onclickoutside": "^6.9.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
@@ -26,6 +24,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babelify": "^10.0.0",
-    "gulp-babel": "^8.0.0"
+    "gulp-babel": "^8.0.0",
+    "idx": "^2.5.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-datepicker": "^2.9.6",
+    "react-onclickoutside": "^6.9.0",
+    "styled-components": "^4.4.0"
   }
 }
