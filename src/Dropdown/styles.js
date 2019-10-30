@@ -9,7 +9,7 @@ import {
     lightBlue,
     paddingXs,
     green
-} from '../../constants/styles';
+} from '../constants/styles';
 
 const DropdownContainer = styled.div`
 @media (min-width: 922px) {
