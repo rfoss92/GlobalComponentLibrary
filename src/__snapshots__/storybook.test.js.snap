@@ -268,12 +268,6 @@ exports[`Storyshots Task pinned 1`] = `
 </div>
 `;
 
-exports[`Storyshots TodaysDate Todays Date 1`] = `
-<div>
-  Today's date is Wed Oct 30 2019 15:02:52 GMT-0400 (EDT)
-</div>
-`;
-
 exports[`Storyshots Welcome To Storybook 1`] = `
 <article
   style={

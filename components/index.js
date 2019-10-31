@@ -14,7 +14,6 @@ import SectionContainer from './ComponentLibrary/SectionContainer';
 import SectionFooter from './ComponentLibrary/SectionFooter';
 import UserInfoSection from './ComponentLibrary/UserInfoSection';
 import TabbedCard from './ComponentLibrary/TabbedCard';
-import TodaysDate from "./ComponentLibrary/TodaysDate"
 
 export {
     Accordion,
@@ -33,5 +32,4 @@ export {
     SectionFooter,
     UserInfoSection,
     TabbedCard,
-    TodaysDate, 
 }

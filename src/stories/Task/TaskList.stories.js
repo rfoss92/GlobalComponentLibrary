@@ -21,6 +21,5 @@ export const withPinnedTasks = [
 storiesOf('TaskList', module)
   .addDecorator(story => <div style={{ padding: '3rem' }}>{story()}</div>)
   .add('default', () => <PureTaskList tasks={defaultTasks} {...actions} />)
-  .add('withPinnedTasks', () => <PureTaskList tasks={withPinnedTasks} {...actions} />)
   .add('loading', () => <PureTaskList loading tasks={[]} {...actions} />)
-  .add('empty', () => <PureTaskList tasks={[]} {...actions} />);
+  .add('empty', () => <PureTaskList tasks={[]} {...actions} />)
