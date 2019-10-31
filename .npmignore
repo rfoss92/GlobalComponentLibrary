@@ -1,4 +1,5 @@
 .babelrc
 /components
+/src
 /public
 .storybook
