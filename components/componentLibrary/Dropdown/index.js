@@ -160,7 +160,7 @@ class Dropdown extends Component {
                 <DropdownContainer tabIndex="0" onKeyDown={(e) => this.handleKeyPress(e)} onKeyPress={(event) => this.onInput(event)}>   
                     <DropdownHeader valid={valid} onClick={() => this.toggleList()}>
                         <div>{value}</div>
-                        {showArrow ? <div><Icon name='IconDropdownArrows'/></div> : null}
+                        {showArrow ? <div><Icon name='IconDropdownArrows'/>asdf</div> : null}
                     </DropdownHeader>
                     <DropdownList ref='dropdownList' 
                         style={{
