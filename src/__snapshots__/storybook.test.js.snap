@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Emoji 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Dropdown Text 1`] = `
+<div
+  className="sc-gzVnrw fGvjxq"
+>
+  <div
+    className="sc-bwzfXH hdhBvl"
+  >
+    <div
+      className="sc-htpNat eibstC"
+    >
+      HOW WOULD YOU LIKE TO PAY
+    </div>
+  </div>
+  <div
+    className="sc-bdVaJa ibVFds"
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    tabIndex="0"
+  >
+    <div
+      className="sc-bxivhb fYmbZo"
+      onClick={[Function]}
+    >
+      <div>
+        Payment Type
+      </div>
+      <div>
+        <svg
+          className="svg-icon IconCircleText"
+          height="10"
+          style={Object {}}
+          viewBox="0 0 6 10"
+          width="6"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <mask
+              height="10"
+              id="a"
+              maskUnits="userSpaceOnUse"
+              width="6"
+              x="0"
+              y="0"
+            >
+              <path
+                d="M6 6.94L2.94 10 0 7.05zM0 3.05L3.05 0 6 2.93z"
+                fill="#fff"
+                fillRule="evenodd"
+              />
+            </mask>
+          </defs>
+          <g
+            data-name="Layer 2"
+          >
+            <g
+              data-name="Layer 1"
+            >
+              <path
+                d="M6 6.94L2.94 10 0 7.05zM0 3.05L3.05 0 6 2.93z"
+                fill="none"
+              />
+              <g
+                mask="url(#a)"
+              >
+                <path
+                  d="M0 0h6v10H0z"
+                  fill="#9ea0a5"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX fagnYt"
+      style={
+        Object {
+          "display": "none",
+          "width": "",
+        }
+      }
+    >
+      <div
+        className="sc-EHOje loBqWA"
+        id={0}
+        onClick={[Function]}
+      >
+        asdf
+      </div>
+      <div
+        className="sc-EHOje gCyzSt"
+        id={1}
+        onClick={[Function]}
+      >
+        qwer
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task archived 1`] = `
+<div
+  className="list-item TASK_ARCHIVED"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={true}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Storyshots Task default 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task pinned 1`] = `
+<div
+  className="list-item TASK_PINNED"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TodaysDate Todays Date 1`] = `
+<div>
+  Today's date is Wed Oct 30 2019 15:02:52 GMT-0400 (EDT)
+</div>
+`;
+
+exports[`Storyshots Welcome To Storybook 1`] = `
+<article
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+      "lineHeight": 1.4,
+      "padding": 15,
+    }
+  }
+>
+  <h1>
+    Welcome to storybook
+  </h1>
+  <p>
+    This is a UI component dev environment for your app.
+  </p>
+  <p>
+    We've added some basic stories inside the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories
+    </code>
+     directory.
+    <br />
+    A story is a single state of one or more UI components. You can have as many stories as you want.
+    <br />
+    (Basically a story is like a visual test case.)
+  </p>
+  <p>
+    See these sample 
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottom": "1px solid #1474f3",
+          "borderLeft": "none",
+          "borderRight": "none",
+          "borderTop": "none",
+          "color": "#1474f3",
+          "cursor": "pointer",
+          "font": "inherit",
+          "padding": 0,
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      stories
+    </button>
+     for a component called
+     
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+    .
+  </p>
+  <p>
+    Just like that, you can add your own components as stories.
+    <br />
+    You can also edit those components and see changes right away.
+    <br />
+    (Try editing the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+     stories located at
+     
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories/index.js
+    </code>
+    .)
+  </p>
+  <p>
+    Usually we create stories with smaller UI components in the app.
+    <br />
+    Have a look at the
+     
+    <a
+      href="https://storybook.js.org/basics/writing-stories"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "borderBottom": "1px solid #1474f3",
+          "color": "#1474f3",
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Writing Stories
+    </a>
+     
+    section in our documentation.
+  </p>
+  <p
+    style={
+      Object {
+        "opacity": 0.5,
+      }
+    }
+  >
+    <b>
+      NOTE:
+    </b>
+    <br />
+    Have a look at the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      .storybook/webpack.config.js
+    </code>
+     to add webpack loaders and plugins you are using in this project.
+  </p>
+</article>
+`;
