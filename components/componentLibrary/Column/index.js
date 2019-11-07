@@ -38,7 +38,7 @@ const Column = (props) => {
     return (
         <div
             className={className}
-            style={{...props.style, flex: `0 0 ${determineColumnWidth(columnWidthFactor, gutter)}`, boxSizing: 'border-box'}}
+            style={{...props.style, flex: `0 0 ${determineColumnWidth(columnWidthFactor, gutter)}`, padding: `0 ${gutter}px`, boxSizing: 'border-box'}}
         >
             <div style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: getJustifyContent(align)}}>
                 {children}

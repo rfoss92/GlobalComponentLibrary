@@ -10,7 +10,7 @@ export default {
 
 export const Default = () => (
     <Grid>
-        <Row>
+        <Row gutter={20}>
             <Column xs={12} sm={12} md={6} lg={8} xl={8}>
                 Goodbye
             </Column>
