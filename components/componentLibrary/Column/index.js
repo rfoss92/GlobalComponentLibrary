@@ -1,32 +1,65 @@
-import styled from 'styled-components';
 
-const getWidthString = (span) => {
-    if (!span) return;
+import React from 'react';
+import PropTypes from 'prop-types';
 
-    const width = span / 12 * 100;
-    return `${width}%`;
+const getJustifyContent = (align) => {
+    switch(align) {
+        case 'top':
+            return 'flex-start';
+        case 'bottom':
+            return 'flex-end';
+        default:
+            return align;
+    }
 }
 
-const Column = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+const determineColumnWidth = (columnWidthFactor, gutter) => {
+    const gutterSize = gutter * 2;
+    const columnPercentage = columnWidthFactor/12;
+    return `calc((100% - ${gutterSize}px) * ${columnPercentage})`;
+}
 
-    @media (min-width: 1px) {
-        width: ${props => props.xs && getWidthString(props.xs)};
-    }
+const determineColumnWidthFactor = (screenSize, breakPoints) => {
+    var validBreakPoints = [];
+    breakPoints.forEach(key => {
+        if (key) validBreakPoints.push(key);
+    });
 
-    @media (min-width: 568px) {
-        width: ${props => props.sm && getWidthString(props.sm)};
+    if( validBreakPoints[screenSize]) return validBreakPoints[screenSize];
+    else {
+        
+        return validBreakPoints[validBreakPoints.length-1];
     }
+}
 
-    @media (min-width: 1100px) {
-        width: ${props => props.md && getWidthString(props.md)};
-    }
+const Column = (props) => {
+    const { className, screenSize, gutter, align, children, xs, sm, md, lg, xl } = props;
+    const columnWidthFactor = determineColumnWidthFactor(screenSize.screenSize, [ xs, sm, md, lg, xl ]);
+    return (
+        <div
+            className={className}
+            style={{...props.style, flex: `0 0 ${determineColumnWidth(columnWidthFactor, gutter)}`, boxSizing: 'border-box'}}
+        >
+            <div style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: getJustifyContent(align)}}>
+                {children}
+            </div>
+        </div>
+    );
+}
 
-    @media (min-width: 1200px) {
-        width: ${props => props.lg && getWidthString(props.lg)};
-    }
-`;
+Column.defaultProps = {
+    gutter: 0,
+}
+
+Column.propTypes = {
+    screenSize: PropTypes.number,
+    gutter: PropTypes.number,
+    align: PropTypes.oneOf(['top', 'center', 'bottom']),
+    xs: PropTypes.number,
+    sm: PropTypes.number,
+    md: PropTypes.number,
+    lg: PropTypes.number,
+    xl: PropTypes.number,
+}
 
 export default Column;

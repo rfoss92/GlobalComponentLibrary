@@ -3,6 +3,7 @@ import Button from './ComponentLibrary/Button';
 import Checkbox from './ComponentLibrary/Checkbox';
 import Column from './ComponentLibrary/Column';
 import Dropdown from './ComponentLibrary/Dropdown';
+import Grid from './ComponentLibrary/Grid';
 import FormInputField from './ComponentLibrary/FormInputField'
 import Row from './ComponentLibrary/Row';
 import Header from './ComponentLibrary/Header';
