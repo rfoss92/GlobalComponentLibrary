@@ -58,7 +58,7 @@ Provider.propTypes = {
         xs: PropTypes.number,
         sm: PropTypes.number,
         md: PropTypes.number,
-        lg: PropTypes.lg,
-        xl: PropTypes.xl,
+        lg: PropTypes.number,
+        xl: PropTypes.number,
     })
 }
