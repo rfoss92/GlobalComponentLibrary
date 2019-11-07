@@ -26,10 +26,8 @@ const determineColumnWidthFactor = (screenSize, breakPoints) => {
     });
 
     if( validBreakPoints[screenSize]) return validBreakPoints[screenSize];
-    else {
-        
-        return validBreakPoints[validBreakPoints.length-1];
-    }
+    else return validBreakPoints[validBreakPoints.length-1];
+    
 }
 
 const Column = (props) => {
