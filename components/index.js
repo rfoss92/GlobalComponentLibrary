@@ -24,6 +24,7 @@ export {
     Dropdown,
     FormInputField,
     Header,
+    Grid,
     HorizontalFlowChart,
     Icon,
     InputWrapper,

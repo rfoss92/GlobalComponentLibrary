@@ -1,8 +1,13 @@
 {
-    "presets": [
-      "env",
-      "react",
-      "stage-0"
-    ],
-    "plugins": ["macros"]
+  "presets": [
+    "env",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "macros", 
+    ["module-resolver", {
+      "root": ["./components"],
+    }]
+  ]
 }
