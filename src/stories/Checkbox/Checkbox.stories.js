@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Checkbox from '../../../components/componentLibrary/Checkbox';
+import Checkbox from 'componentLibrary/Checkbox';
 
 storiesOf('Checkbox', module)
     .addDecorator(story => <div style={{ padding: '3rem' }}>{story()}</div>)
